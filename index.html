@@ -10,6 +10,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 40px;
   }
   
   li {
@@ -31,13 +32,27 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    
+    padding: 20px 40px;
+    border-bottom: 2px solid black;
+    background-color: skyblue;
   }
   
   
   body{
     width: 1200px;
     margin: auto;
+    background-color: pink;
   }  
+  
+  .hero {
+    background-color: orange;
+    margin: 40px auto;
+    width: 80%;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
     
   .column {
     display: grid;
@@ -51,6 +66,15 @@
     text-align: center;
   }
   
+  .bottom {
+    background-color: orange;
+    margin: 40px auto;
+    width: 80%;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
   html {
     font-size: 16px;
   }
@@ -60,6 +84,9 @@
 <body>
   
 <nav>
+  <div class="logo">
+    enya's
+  </div>
   <ul>
     <li><a href="/">HOME</a></li>
     <li><a href="/">CINEMATIC</a></li>
@@ -74,7 +101,7 @@
     <p>photo gallery</p>
 </div>
 
-<!--hero section--> 
+<!--3 boxes section--> 
 <div class="column">
   <div>
     <h2>Cinematic photography</h2>
@@ -90,9 +117,17 @@
     <h2>Black & White</h2>
     <p>When the colour is gone, the focus shifts to emotion, contrast, and form</p>
   </div>
-
- 
 </div>
+  
+<!--bottom section-->  
+<div class="bottom">
+    <h1>Bringing imagination to life</h1>
+</div>
+  
+  
+<!--PAGE 2-->  
+  
+  
 </body>
   
 </html>
