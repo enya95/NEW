@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Enya's Photo book</title>
+<title>Enya's Photo Gallery</title>
 <meta charset="utf-8">
   <!--font-->
   
 <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block ;
+    margin-right: 20px 
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #808080  
+  }
+  
+  nav {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
   body{
     width: 1200px;
     margin: auto;
   }  
     
-  .container {
+  .column {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     background-color: #C4D7F2;
     padding: 10px;
   }
     
-  .container div {
+  .column div {
     padding: 10px;
     text-align: center;
   }
@@ -30,22 +58,40 @@
 </head>
   
 <body>
-<div class="container">
+  
+<nav>
+  <ul>
+    <li><a href="/">HOME</a></li>
+    <li><a href="/">CINEMATIC</a></li>
+    <li><a href="/">NOTICING</a></li>
+    <li><a href="/">BLACK & WHITE</a></li>   
+  </ul>
+</nav>
+  
+<!--hero section-->  
+<div class="hero">
+    <h1>Capture the Moment</h1>
+    <p>photo gallery</p>
+</div>
+
+<!--hero section--> 
+<div class="column">
   <div>
-    <h1>Enya's</h1>
+    <h2>Cinematic photography</h2>
+    <p>Where everyday scenes become frames from a film</p>
+  </div>  
+  
+  <div>
+    <h2>The Art of Noticing</h2>
+    <p>A celebration of the smaill and easily overlooked moments</p>
   </div>
   
   <div>
-    i dont know where does this go.
+    <h2>Black & White</h2>
+    <p>When the colour is gone, the focus shifts to emotion, contrast, and form</p>
   </div>
-  
-  <div>
-    ok what about this
-  </div>
-  
-  <div>
-    whats next
-  </div>
+
+ 
 </div>
 </body>
   
