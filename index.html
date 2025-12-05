@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CA">
 <head>
 <title>Enya's Photo Gallery</title>
 <meta charset="utf-8">
@@ -57,7 +57,7 @@
   }  
 
 /*PAGE 1 - HOME PAGE*/
-  .homeHero {
+ /* .homeHero {
     background-color: orange;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -66,7 +66,30 @@
     text-align: center;
     border-radius: 20px;
   }
+  
+  
+  .homeHero div img {
+    width: 960px;
+    height: auto;
+  }
+  */  
+  
+  .homeHero {
+    background-image: url("homeHero.JPG");
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1200px;
+    height: 400px;
     
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .homeHero h1 {
+    padding: 100px;
+  }
+  
   .homeColumn {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -82,11 +105,13 @@
   }
   
   .homeBottom {
-    background-color: orange;
+    background-image: url("homeBottom.JPG");
+
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 100%;
-    padding: 80px 20px;
+    width: 1200px;
+    height: 400px;
+    
     text-align: center;
     border-radius: 20px;
   }
@@ -110,6 +135,11 @@
     border-radius: 20px;
   }
   
+  .cineColumnTop div img {
+    width: 100%;
+    height: auto;
+  }
+  
   .cineColumnBottom {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -130,6 +160,11 @@
     grid-template-columns: 30% 70%;
     padding: 10px;
     gap: 20px;
+  }
+  
+  .artHero div img {
+    width: 100%;
+    height: 100px;
   }
   
   .artP {
@@ -207,6 +242,7 @@
 <div class="homeHero">
     <h1>Capture the Moment</h1>
     <p>photo gallery</p>
+  <!--  <img src="sea.JPG" alt="sea"> -->
 </div>
 
 <div class="homeColumn">
@@ -239,10 +275,10 @@
   
 <div class="cineColumnTop">
   <div>
-    <img src="sea.jpg" alt="sea">
+    <img src="sea.JPG" alt="sea">
   </div>
   <div>
-    <img src="sunset.jpg" alt="sunset">
+    <img src="sunset.JPG" alt="sunset">
   </div>
   <div>
     <p>third image</p>
@@ -267,7 +303,7 @@
     <h1>The Art of Noticing</h1>
   </div>
   <div>
-    <p>an image</p>
+    <img src="sunset.jpg" alt="sunset">
   </div>
 </div>
   
