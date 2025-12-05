@@ -23,18 +23,16 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 40px;
-    text-align: right;
+    text-align: center;
   }
   
   .logo {
-    display: inline-block;
-    width: 200px;
+    text-align: center;
   }
   
   li {
     display: inline-block;
-    margin-left: 20px 
+    margin: 0 20px; 
   }
   
   a {
@@ -47,10 +45,12 @@
   }
   
   nav {
+    text-align: center;
     font-family: 'Urbanist';
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    
     
     padding: 5px 0;
     border-top: 3px solid black;
@@ -204,7 +204,7 @@
   
   .artHero div img {
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
     border-radius: 20px;
   }
@@ -285,10 +285,10 @@
     <h1>enya's</h1>
   </div>
   <ul>
-    <li><a href="/">HOME</a></li>
-    <li><a href="/">CINEMATIC</a></li>
-    <li><a href="/">NOTICING</a></li>
-    <li><a href="/">BLACK & WHITE</a></li>   
+    <li><a href="#homeHero">HOME</a></li>
+    <li><a href="#cineHero">CINEMATIC</a></li>
+    <li><a href="#artHero">NOTICING</a></li>
+    <li><a href="#bwHero">BLACK & WHITE</a></li> 
   </ul>
 </nav>
   
@@ -324,7 +324,7 @@
   
    
 <!--PAGE 2 - CINEMATIC PHOTOGRAPHY--> 
-<div class="cineHero">
+<div id="cineHero" class="cineHero">
     <h1>Cinematic Photography*</h1>
     <p>Where everyday scenes become frames from a film. Light, colour, and atmosphere come together to create images that feel like stories paused mid-moment.</p>
 </div>
@@ -359,7 +359,7 @@
     <h1>The Art <br>of *<br> Noticing</h1>
   </div>
   <div>
-    <img src="artHero.jpg" alt="flower">
+    <img src="artHero2New.png" alt="flower">
   </div>
 </div>
   
